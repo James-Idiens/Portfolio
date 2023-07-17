@@ -1,10 +1,4 @@
-import {
-  ColorTags,
-  GradientText,
-  Project,
-  Section,
-  Tags,
-} from 'astro-boilerplate-components';
+import { ColorTags, GradientText, Project, Section, Tags } from 'astro-boilerplate-components'
 
 const ProjectList = () => (
   <Section
@@ -21,7 +15,7 @@ const ProjectList = () => (
         link="https://github.com/James-Idiens/Devify-project"
         img={{
           src: '/assets/images/ecommerce.jpg',
-          alt: 'Project Web Design',
+          alt: 'Ecommerce project',
         }}
         category={
           <>
@@ -47,22 +41,21 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        name="Novel Writing Software"
+        description="This is in early development, and a personal project I started during my course at Dev Academy. It is a novel writing software called Eloquence that will help writers plan and write their novels. It is built using the tech stack I learnt at Dev Academy, React, TypeScript, Express, and Sqlite with Knex."
+        link="https://github.com/James-Idiens/Eloquence"
+        img={{ src: '/assets/images/writing.jpg', alt: 'Eloquence' }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.FUCHSIA}>React</Tags>
+            <Tags color={ColorTags.LIME}>SQLITE</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
           </>
         }
       />
     </div>
   </Section>
-);
+)
 
-export { ProjectList };
+export { ProjectList }
