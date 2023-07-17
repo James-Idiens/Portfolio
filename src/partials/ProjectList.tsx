@@ -11,7 +11,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="Ecommerce website"
-        description="This was our final group project at Dev Academy. This was my idea so I was tasked with being the product owner. We had a small team of three, and just under a week to complete it. We used React, TypeScript, Sqlite with Knex and Express. We also used Tailwind.css for styling. The standout features I was responsible for were the image carousel, cart functionality, and stripe integration."
+        description="This was our final group project at Dev Academy. This was my idea so I was tasked with being the product owner. We had a small team of three, and just under a week to complete it. We used React, TypeScript, Sqlite with Knex and Express. We also used Tailwind.css for styling. The standout features I was responsible for were the image carousel, cart functionality, and stripe payment integration. This project gave me an appreciation for how much work goes into seemingly simple features."
         link="https://github.com/James-Idiens/Devify-project"
         img={{
           src: '/assets/images/ecommerce.jpg',

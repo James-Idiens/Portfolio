@@ -1,10 +1,4 @@
-import {
-  Logo,
-  NavbarTwoColumns,
-  NavMenu,
-  NavMenuItem,
-  Section,
-} from 'astro-boilerplate-components';
+import { Logo, NavbarTwoColumns, NavMenu, NavMenuItem, Section } from 'astro-boilerplate-components'
 
 const Navbar = () => (
   <Section>
@@ -37,9 +31,10 @@ const Navbar = () => (
           LinkedIn
         </NavMenuItem>
         <NavMenuItem href="https://github.com/James-Idiens">GitHub</NavMenuItem>
+        <NavMenuItem href="/assets/James-Idiens-CV.pdf">Download CV</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
-);
+)
 
-export { Navbar };
+export { Navbar }
