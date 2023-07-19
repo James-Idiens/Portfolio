@@ -27,10 +27,16 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="https://www.linkedin.com/in/james-idiens-1b9ab5282">
+        <a
+          href="https://www.linkedin.com/in/james-idiens-1b9ab5282"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn
-        </NavMenuItem>
-        <NavMenuItem href="https://github.com/James-Idiens">GitHub</NavMenuItem>
+        </a>
+        <a href="https://github.com/James-Idiens" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
         <NavMenuItem href="/assets/James-Idiens-CV.pdf">Download CV</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>

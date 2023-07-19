@@ -15,7 +15,12 @@ const Hero = () => (
           field, I knew the time was right to pursue my switch to tech. I retrained at Dev Academy
           and learnt full stack development. This is my portfolio and these projects you see here
           are the results of only 15 weeks (or less) of learning to code. Check out my{' '}
-          <a className="text-cyan-400 hover:underline" href="https://github.com/James-Idiens">
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://github.com/James-Idiens"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>{' '}
           or my LinkedIn below.
@@ -31,7 +36,11 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="https://www.linkedin.com/in/james-idiens-1b9ab5282">
+          <a
+            href="https://www.linkedin.com/in/james-idiens-1b9ab5282"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <HeroSocial src="/assets/images/linkedin-icon.png" alt="Linkedin icon" />
           </a>
         </>
