@@ -23,6 +23,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.LIME}>SQLITE</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.SLATE}>Express</Tags>
+            <Tags color={ColorTags.ZINC}>Node.js</Tags>
           </>
         }
       />
@@ -51,6 +53,23 @@ const ProjectList = () => (
             <Tags color={ColorTags.LIME}>SQLITE</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.SLATE}>Express</Tags>
+            <Tags color={ColorTags.ZINC}>Node.js</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Book Collection"
+        description="Website that displays books and authors. It allows users to add a new book, update and existing book and delete books from the database. This introduced me to React query and mutations, while also giving me more practice with backend functionality."
+        link="https://github.com/James-Idiens/fullstack-collection-query/tree/main"
+        img={{ src: '/assets/images/book.png', alt: 'Book' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>React</Tags>
+            <Tags color={ColorTags.LIME}>SQLITE</Tags>
+            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.SLATE}>Express</Tags>
+            <Tags color={ColorTags.ZINC}>Node.js</Tags>
           </>
         }
       />
