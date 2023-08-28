@@ -31,7 +31,7 @@ const ProjectList = () => (
       />
       <Project
         name="Weather App"
-        description="This is a classic weather app that I built using React. It uses the weatherapi API to fetch the weather data. I used Tailwind.css for styling and the colour changes dynamically depending on the conditions. A further feature I intergrated was the fetching of the bing wallpaper of the day using JSON data to display as the background."
+        description="This is a classic weather app that I built using React. It uses the weatherapi API to fetch the weather data. I used Tailwind.css for styling and the colour changes dynamically depending on the conditions. A further feature I intergrated was the fetching of the bing wallpaper of the day using JSON data to display as the background. I have used the React Testing Library to write tests for this project."
         link="https://github.com/James-Idiens/weather-app"
         img={{ src: '/assets/images/weather.png', alt: 'Weather' }}
         category={
@@ -45,8 +45,8 @@ const ProjectList = () => (
       />
       <Project
         name="Book Collection"
-        description="Website that displays books and authors. It allows users to add a new book, update and existing book and delete books from the database. This introduced me to React query and mutations, while also giving me more practice with backend functionality."
-        link="https://github.com/James-Idiens/fullstack-collection-query/tree/main"
+        description="Website that displays books and authors. It allows users to add a new book, update and existing book and delete books from the database. This introduced me to React query and mutations, while also giving me more practice with backend functionality. I have written thorough tests for this project, with 92% coverage."
+        link="https://github.com/James-Idiens/Book-fullstack-collection"
         img={{ src: '/assets/images/book.png', alt: 'Book' }}
         category={
           <>
