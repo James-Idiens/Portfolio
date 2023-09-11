@@ -1,4 +1,4 @@
-import { GradientText, HeroAvatar, HeroSocial, Section } from 'astro-boilerplate-components'
+import { GradientText, HeroAvatar, Section } from 'astro-boilerplate-components'
 
 const Hero = () => (
   <Section>
@@ -14,16 +14,14 @@ const Hero = () => (
           studying a Bachelor of Commerce at university. After working for a several years in that
           field, I knew the time was right to pursue my switch to tech. I retrained at Dev Academy
           and learnt full stack development. This is my portfolio and these projects you see here
-          are the results of only 15 weeks (or less) of learning to code. Check out my{' '}
-          <a
-            className="text-cyan-400 hover:underline"
-            href="https://github.com/James-Idiens"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>{' '}
-          or my LinkedIn below.
+          are the results of only 15 weeks (or less) of learning to code.
+          <br />
+          Tech skills aside, I enjoy working with people and pride myself on my communication and
+          interpersonal skills. I'm a quick learner, and always eager to tackle new challenges. I'm
+          looking for a role where I can bring my blend of technical and buisness skills to the
+          table.
+          <br />
+          Feel free to check out my Linkedin and Github pages, which are linked above.
         </>
       }
       avatar={
@@ -33,17 +31,6 @@ const Hero = () => (
           alt="Avatar image"
           loading="lazy"
         />
-      }
-      socialButtons={
-        <>
-          <a
-            href="https://www.linkedin.com/in/james-idiens-1b9ab5282"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <HeroSocial src="/assets/images/linkedin-icon.png" alt="Linkedin icon" />
-          </a>
-        </>
       }
     />
   </Section>
