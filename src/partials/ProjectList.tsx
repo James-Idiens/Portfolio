@@ -63,21 +63,19 @@ const ProjectList = () => (
     <Section
       title={
         <>
-          <GradientText>Current Projects as of September 2023</GradientText>
+          <GradientText>Current Projects as of December 2023</GradientText>
         </>
       }
     >
       <div className="flex flex-col gap-6">
         <Project
-          name="Golf scorecard mobile app"
-          description="I am trying mobile development for the first time and creating a scorecard app for Rawhiti golf course in Christchurch. I am using React Native and Expo to build the app."
-          link="https://github.com/James-Idiens/golf-scorecard"
-          img={{ src: '/assets/images/golf.png', alt: 'Golf' }}
+          name="Freelance Website"
+          description="I am currently building my own freelance website. I am using SvelteKit, and Tailwind CSS to really focus and hone my frontend skills. The website and repo are currently private, but I will make them public once I am happy with the result."
+          link=""
+          img={{ src: '/assets/images/flexfox2.png', alt: 'A fox' }}
           category={
             <>
-              <Tags color={ColorTags.RED}>React Native</Tags>
-              <Tags color={ColorTags.SKY}>Expo</Tags>
-              <Tags color={ColorTags.ROSE}>JavaScript</Tags>
+              <Tags color={ColorTags.RED}>SvelteKit</Tags>
             </>
           }
         />
